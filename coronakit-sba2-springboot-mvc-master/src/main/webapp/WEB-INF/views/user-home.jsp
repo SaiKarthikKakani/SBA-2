@@ -23,6 +23,11 @@
 			<security:authentication property="principal.username" />
 		</h3>
 		<hr>
+		<div align="right">
+			<a href="${pageContext.request.contextPath}/logout">
+				<button>Logout</button>
+			</a>
+		</div>
 		<div>
 			<a href="${pageContext.request.contextPath}/user/show-kit">
 				<button>Show Cart</button>

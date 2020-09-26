@@ -1,0 +1,5 @@
+
+testUserHome=true
+testUserListAllProduct=true
+testUserShowKit=true
+testUserCheckout=true

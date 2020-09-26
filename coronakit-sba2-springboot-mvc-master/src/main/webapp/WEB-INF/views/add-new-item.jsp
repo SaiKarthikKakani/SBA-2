@@ -23,6 +23,9 @@
 		<h3 align="center">Add New Item</h3>
 		<hr>
 		<div align="right">
+			<a href="${pageContext.request.contextPath}/admin/home">
+				<button>Home</button>
+			</a>
 			<a href="${pageContext.request.contextPath}/logout">
 				<button>Logout</button>
 			</a>

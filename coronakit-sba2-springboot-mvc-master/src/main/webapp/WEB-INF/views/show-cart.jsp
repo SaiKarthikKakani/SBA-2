@@ -31,6 +31,9 @@
 	<h3 align="center">Cart Details</h3>
 	<hr>
 	<div align="right">
+		<a href="${pageContext.request.contextPath}/user/home">
+			<button>Home</button>
+		</a>
 		<a href="${pageContext.request.contextPath}/logout">
 			<button>Logout</button>
 		</a>

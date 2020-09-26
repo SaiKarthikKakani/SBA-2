@@ -37,12 +37,13 @@ public class UserController {
 
 	@Autowired
 	KitDetailService kitDetailService;
+	
 
 	@RequestMapping("/home")
 	public String home(HttpServletRequest request) {
 		CoronaKit coronaKit = new CoronaKit();
 		this.coronaKitService.saveKit(coronaKit);
-
+		
 		coronaKitInitialId = this.coronaKitService.getMaxCoronaKitId();
 		request.getSession().setAttribute("coronaKitUniqueId", coronaKitInitialId);
 		quantity = 0;

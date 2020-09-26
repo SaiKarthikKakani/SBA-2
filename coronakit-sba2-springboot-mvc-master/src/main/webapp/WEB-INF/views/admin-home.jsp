@@ -15,6 +15,11 @@
 		<jsp:include page="header.jsp" />
 		<h3 align="center">Hello Admin</h3>
 		<hr>
+		<div align="right">
+			<a href="${pageContext.request.contextPath}/logout">
+				<button>Logout</button>
+			</a>
+		</div>
 		<div>
 			<a href="${pageContext.request.contextPath}/admin/product-list">
 				<button>Show All Products</button>
